@@ -5,7 +5,7 @@ name: test worklow
 # Workflow trigger
 on:
   push: 
-    branches: [ main ]
+    branches: [ test ]
 
 jobs:
     say-hello:

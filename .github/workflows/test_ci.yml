@@ -6,7 +6,7 @@ on:
     branches: [ main ]
 
 jobs: 
-  francis: 
+  test: 
     runs-on: ubuntu-latest # Specify preferred os server
     strategy: 
       matrix: 
