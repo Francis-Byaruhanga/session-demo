@@ -1,0 +1,17 @@
+# Name of the worklow
+# Workflow = event -> runner -> jobs -> steps -> actions
+name: test worklow
+
+# Workflow trigger
+on:
+  push: 
+    branches: [ main ]
+
+jobs:
+    say-hello:
+        runs-on: ubuntu-latest
+
+        steps:
+          - name: print test
+            run: echo "Hello Francis"
+
